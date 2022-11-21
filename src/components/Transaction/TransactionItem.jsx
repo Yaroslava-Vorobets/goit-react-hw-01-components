@@ -10,8 +10,7 @@ const TransactionItem = ({type, amount, currency}) => {
     )
 }
 
-TransactionItem.propTypes = {
-    
+TransactionItem.propTypes = {    
     type: PropTypes.string.isRequired, 
     amount: PropTypes.string.isRequired,
     currency: PropTypes.string.isRequired,
