@@ -1,7 +1,6 @@
 import Profile from './profile/Profile';
 import user from './profile/user.json';
-import Statistics from './statistics/Statistics';
-import data from './statistics/Statistics.json';
+
 import FriendsList from './Friends/FriendList';
 import friends from './Friends/friends.json';
 import TransactionHistory from './Transaction/TransactionHistory'
@@ -20,7 +19,7 @@ export const App = () => {
             statsView={user.stats.views} 
             statsLikes={user.stats.likes}        
           />         
-          <Statistics title="Upload stats" items={data} />
+      
           <FriendsList friends={friends}/> 
           <TransactionHistory items={transactions} />
       </>     
