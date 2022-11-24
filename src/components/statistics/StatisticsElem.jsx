@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 const StatisticsElement = ({label, percentage}) => {
     return (
          <>
-            <span class="label">{label}</span>
-            <span class="percentage">{percentage}%</span>
+            <span className="label">{label}</span>
+            <span className="percentage">{percentage}%</span>
         </>       
     )
 }
