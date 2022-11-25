@@ -1,12 +1,5 @@
 import styled from '@emotion/styled';
 
-export const Container = styled.div`
-    width: 768px;
-    margin: 0 auto;
-    padding: 70px;    
-    background-color: #f1f2f5;
-    `;
-
 export const UserPhoto = styled.img`
     display: block;
     margin: auto;
@@ -17,7 +10,7 @@ export const UserPhoto = styled.img`
 export const Description  = styled.div`
     width: 400px;
     margin: 0 auto;
-    padding: 70px 70px 1px 70px;    
+    padding: 70px 70px 30px 70px;    
     background-color: #fff;
     `;
 
@@ -45,11 +38,11 @@ export const FollowersName = styled.span`
     display: flex;
     justify-content: center;
     `;
-export const Box = styled.ul`
-    padding-left:0;
+export const Box = styled.ul` 
+    padding-left: 0; 
+    padding-bottom: 30px;     
     display: flex;
-    justify-content: center;
-    padding: 1px 70px 70px 70px;  
+    justify-content: center;    
     width: 400px;
     margin: 0 auto;   
     background-color: #fff;
@@ -57,7 +50,7 @@ export const Box = styled.ul`
 
 export const Wrap = styled.li`
     list-style: none;
-    padding: 30px;
+    padding: 5px;
     width: 80px;  
     flex-direction: column;
     display: flex;

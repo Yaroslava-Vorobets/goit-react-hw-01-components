@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 import TransactionItem from './TransactionItem';
 import {TableTransaction, TableRow, TableTr }from './transactionHistory.styled';
-
+import { Container } from '../App/App.styles';
 const TransactionHistory = ({items}) => {
     return (
-        <TableTransaction>
+         <Container>  
+            <TableTransaction>            
             <thead>
                 <TableTr>
                     <TableRow>Type</TableRow>
@@ -20,8 +21,9 @@ const TransactionHistory = ({items}) => {
                         amount={item.amount}
                         currency={item.currency}/>
                     </tr>))}                 
-            </tbody>
-        </TableTransaction>
+                </tbody>           
+            </TableTransaction>
+            </Container>   
     )
 }
 

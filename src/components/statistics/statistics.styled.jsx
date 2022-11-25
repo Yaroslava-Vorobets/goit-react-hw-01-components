@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const Section = styled.section`
     width: 768px;
     margin: 0 auto;
-    padding: 0 70px 70px 70px;    
+    padding: 70px 70px 70px 70px;    
     background-color: #f1f2f5;   
     `;
 
@@ -16,7 +16,7 @@ export const List = styled.ul`
 
  export const ListEl = styled.li`
     list-style: none;
-    padding: 38px;   
+    padding: 23px;   
     flex-direction: column;
     display: flex;
     align-items: center;

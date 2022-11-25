@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const TableTransaction = styled.table`
-    width: 908px;
+    width: 80%;
  	margin: auto;
  	border-collapse: collapse; `;
 

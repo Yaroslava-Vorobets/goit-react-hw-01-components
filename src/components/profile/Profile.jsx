@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
-import {Container,Description, Box, Wrap, Username, UserPhoto, Tag, Location, Label, LabelValue} from './profile.styled';
+import { Description, Box, Wrap, Username, UserPhoto, Tag, Location, Label, LabelValue } from './profile.styled';
+import { Container } from '../App/App.styles';
 
 const Profile = ({ username, tag, location, avatar, statsFollow, statsView, statsLikes}) => {
     return (
-      <Container>        
+      <Container>      
           <Description>
             <UserPhoto
               src={avatar}
